@@ -1,0 +1,19 @@
+.head {
+    background-color: blanchedalmond;
+    color: brown;
+}
+
+.description {
+    background-color: beige;
+    color: darkblue;
+}
+
+.mainDescription {
+    background-color: yellow;
+    color: darkcyan;
+}
+
+.catchphrase {
+    background: khaki;
+    color: saddlebrown;
+}
