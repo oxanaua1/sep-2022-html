@@ -1,0 +1,50 @@
+
+.container {
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card1, .card2, .card3 {
+    width: 30%;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_icon {
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 20px;
+    position: relative;
+    bottom: 40px;
+    background-color: #ffffff;
+}
+
+.fa-solid {
+    background-color: #ec9216;
+}
+
+.card_desc_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.card_title {
+    color: #0c0c0c;
+}
+
+.card_desc {
+    font-size: 15px;
+    color: #c2bfbf;
+}
+
+.font_arial-sans {
+    font-family: "Book Antiqua", sans-serif;
+}
