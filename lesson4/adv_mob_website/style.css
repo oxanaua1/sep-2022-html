@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgDark {
+    background-color: #686868;
+}
+
+.font {
+    font-weight: bold;
+    color: #cf7a7c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 3px solid #686868;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+}
+
+.headerWrapper {
+    display: flex;
+    column-gap: 10px;
+    height: 20%;
+    padding-bottom: 10px;
+}
+
+.logo {
+    width: 30%;
+
+}
+
+.header {
+    width: 70%;
+}
+
+.navMedia {
+    display: none;
+}
+
+.content {
+    height: 50%;
+    display: flex;
+    column-gap: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+
+.nav {
+    height: 60%;
+}
+
+.storeLocator {
+    height: 20%;
+}
+
+.tools {
+    height: 20%;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 70%;
+}
+
+.mainContent_up {
+    height: 40%;
+    display: flex;
+    column-gap: 10px;
+}
+
+.mainContent_down {
+    height: 60%;
+    display: flex;
+    column-gap: 10px;
+}
+
+.bathSectionIntro {
+    width: 70%;
+}
+
+.ad {
+    width: 30%;
+}
+
+.typesOfBath {
+    width: 70%;
+}
+
+.relatedProducts {
+    width: 30%;
+}
+
+.footer {
+    height: 30%;
+}
